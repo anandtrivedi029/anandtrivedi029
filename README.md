@@ -10,25 +10,20 @@ With **15 years of total experience**, including **8 years in AI** and **6 years
 
 ## Pinned Work
 
-- [SCRIBE](https://github.com/anandtrivedi029/Scribe)
-- [medical-rag-experiments](https://github.com/anandtrivedi029/medical-rag-experiments)
-- [PyTorch-From-Scratch-to-Building-LLMs](https://github.com/anandtrivedi029/PyTorch-From-Scratch-to-Building-LLMs)
-
-
+- [SCRIBE](https://github.com/anandtrivedi029/Scribe) - Multi-hop reasoning architecture.
+- [Medical GraphRAG](https://github.com/anandtrivedi029/graph-rag-med-rag) - Relationship-aware retrieval for healthcare.
+- [medical-rag-experiments](https://github.com/anandtrivedi029/medical-rag-experiments) - RAG evaluation in high-stakes domains.
+- [PyTorch-From-Scratch-to-Building-LLMs](https://github.com/anandtrivedi029/PyTorch-From-Scratch-to-Building-LLMs) - Deep learning foundations.
 
 ## About Me
 
 I enjoy breaking difficult problems into smaller computational units and solving them through thoughtful system design.
 
 My main areas of focus include:
-
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- Document AI
-- Multi-step reasoning systems
-- AI model evaluation
+- Large Language Models (LLMs) & RAG
+- Knowledge Graphs & GraphRAG
+- Document AI & Multi-step reasoning systems
 - Biomedical and healthcare AI
-- Deep learning with PyTorch
 - AI architecture and deployment
 
 I also run **[Invenzt AI](https://invenztai.com/)**, where I provide **weekend AI trainings** for learners and professionals looking to build practical skills in modern AI.
@@ -37,136 +32,70 @@ I also run **[Invenzt AI](https://invenztai.com/)**, where I provide **weekend A
 
 ## Featured Projects
 
+### [Medical GraphRAG](https://github.com/anandtrivedi029/graph-rag-med-rag)
+An advanced implementation of RAG that utilizes a **Knowledge Graph** to capture intricate relationships between medical entities. 
+- **Graph-Based Retrieval**: Moves beyond vector similarity to perform multi-hop reasoning across diseases, symptoms, and treatments.
+- **Improved Contextual Grounding**: Reduces hallucinations in clinical queries by anchoring the LLM in a structured knowledge schema.
+- **Interactive Interface**: Features a Gradio-based UI for real-time graph-augmented query validation.
+
+---
+
 ### [SCRIBE](https://github.com/anandtrivedi029/Scribe)
 A novel architecture for **multi-hop reasoning** designed to make models think in a more structured, step-by-step way instead of attempting to solve everything at once.
-
-**Why it matters**
-- Enforces sequential reasoning
-- Uses persistent memory with attention-based, confidence-weighted write operations
-- Designed to reduce reasoning shortcuts seen in standard attention-based models
-- Backed by ongoing research and paper work
+- Enforces sequential reasoning with persistent memory and attention-based write operations.
+- Designed to reduce reasoning shortcuts seen in standard attention-based models.
 
 ---
 
 ### [medical-rag-experiments](https://github.com/anandtrivedi029/medical-rag-experiments)
-An experimental repository exploring **RAG in medical and high-stakes domains**, with attention to retrieval quality, evaluation, and safe framing.
-
-**Focus areas**
-- Domain-specific retrieval
-- Evaluation of response quality
-- Practical experimentation in healthcare-oriented AI systems
+An experimental repository exploring **RAG in medical and high-stakes domains**, focusing on retrieval quality, evaluation, and safe framing in healthcare-oriented AI systems.
 
 ---
 
 ### [PyTorch-From-Scratch-to-Building-LLMs](https://github.com/anandtrivedi029/PyTorch-From-Scratch-to-Building-LLMs)
-A hands-on deep learning journey covering PyTorch fundamentals through advanced topics such as transformers, diffusion models, attention, and LLM concepts.
-
-**Highlights**
-- Concept-first implementation approach
-- Practical learning repo for building models from scratch
-- Covers modern deep learning foundations relevant to LLM engineering
+A hands-on deep learning journey covering PyTorch fundamentals through advanced topics such as transformers, diffusion models, and attention mechanisms.
 
 ---
 
 ## Professional Highlights
 
-- **AI leader with 15 years of experience**, including strong startup and enterprise AI leadership
-- **Head of AI at Aavenir**, where I led AI strategy, R&D, and deployment for Document AI and contract intelligence systems
-- Built AI solutions for:
-  - invoice automation
-  - contract extraction
-  - clause intelligence
-  - contract risk analysis
-  - custom RAG systems
-  - AI search over large document repositories
-- Fine-tuned and deployed custom LLMs using tools such as **Llama, Phi-3, CTranslate2, AWS SageMaker, Django APIs, and vector databases**
-- Built custom evaluation systems for **RAG testing**, including faithfulness and relevancy analysis
-- Worked on **Explainable AI for cancer detection** and other ongoing research initiatives
-- Author of **Building LLMs using PyTorch**
-- Recognized among **40 Under 40 AI Engineers** and featured as a speaker at major AI events in India
+- **AI leader with 15 years of experience**, including strong startup and enterprise AI leadership.
+- **Head of AI at Aavenir**, where I led AI strategy, R&D, and deployment for Document AI and contract intelligence systems.
+- Built AI solutions for invoice automation, contract extraction, clause intelligence, and custom RAG systems.
+- Fine-tuned and deployed custom LLMs using **Llama, Phi-3, CTranslate2, and AWS SageMaker**.
+- Recognized among **40 Under 40 AI Engineers** and featured as a speaker at major AI events in India.
 
 ---
 
 ## Tech Stack
 
-### Languages
-`Python` `Go` `TypeScript` `JavaScript` `Java` `PHP`
-
-### AI / ML
-`PyTorch` `TensorFlow` `Transformers` `LLMs` `RAG` `Document AI` `Diffusion Models`
+### Languages & AI/ML
+`Python` `Go` `TypeScript` `PyTorch` `Transformers` `LLMs` `GraphRAG` `Document AI`
 
 ### LLM / LLMOps
-`LoRA` `QLoRA` `CTranslate2` `LLAMA.cpp` `MLflow` `Ray` `Model Fine-tuning`
+`LoRA` `QLoRA` `CTranslate2` `LLAMA.cpp` `MLflow` `Vector Databases`
 
 ### Cloud / Deployment
-`AWS SageMaker` `AWS Bedrock` `Azure` `Docker` `EC2`
-
-### Frameworks / Tools
-`Django` `Flask` `Channels` `Jupyter Notebook` `Git` `Vector Databases`
+`AWS SageMaker` `AWS Bedrock` `Azure` `Docker` `Django APIs`
 
 ---
 
 ## Current Research & Exploration
 
 I’m currently exploring:
-
-- More efficient architectures for **multi-step reasoning**
-- **Explainable AI** for cancer detection and clinical trust
-- New forms of **data representation beyond traditional vectors**
-- Compact **Graph Neural Network models for reasoning**
-- Better ways to evaluate and improve reliability in LLM-driven systems
-
----
-
-## Experience Snapshot
-
-### AI Architect — Cognizant
-Worked on AI for CLM and CPQ, including quote optimization, LLM fine-tuning, and finite-state-machine driven sales quote workflows.
-
-### Head of AI — Aavenir
-Led AI strategy and built foundational AI applications from scratch, scaling systems and teams through growth stages.
-
-### AI Technical Architect — Apttus / Conga
-Built AI-based contract extraction, NLP search, and automated model training/deployment systems.
-
-### Co-Founder — BharatNaukri
-Built and scaled a job portal platform from scratch while leading engineering and product development.
-
----
-
-## Open to
-
-- AI/ML leadership roles
-- Applied AI architecture opportunities
-- LLM / RAG consulting
-- AI product development collaborations
-- Research collaborations
-- Corporate and weekend AI training engagements through **Invenzt AI**
+- **Graph Neural Networks** for enhanced clinical reasoning.
+- **Explainable AI** for cancer detection and clinical trust.
+- Efficient architectures for **multi-step reasoning** and data representation beyond traditional vectors.
 
 ---
 
 ## Connect
 
 - **Website:** [Invenzt AI](https://invenztai.com/)
-- **GitHub:** [anandtrivedi029](https://github.com/anandtrivedi029)
-- **Email:** trivedi.anand029@gmail.com
-
----
-
-## Philosophy
-
-I believe difficult AI problems are rarely solved by a single model or technique.  
-The best systems come from combining:
-
-- strong problem decomposition
-- the right algorithms
-- practical ML engineering
-- careful evaluation
-- and a deep understanding of where models fail
-
-That belief shapes both my research and the systems I build.
+- **LinkedIn:** [Anand Trivedi](YOUR_LINKEDIN_URL)
+- **Email:** [trivedi.anand029@gmail.com](mailto:trivedi.anand029@gmail.com)
 
 ---
 
 ### Thanks for visiting my GitHub
-If you're interested in AI systems, LLMs, RAG, reasoning, or training collaborations, feel free to connect.
+If you're interested in AI systems, GraphRAG, reasoning, or training collaborations, feel free to connect.
